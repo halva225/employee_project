@@ -13,3 +13,8 @@ urlpatterns = [
     path('delete/<int:id>/', views.employee_delete, name = 'employee_delete'),
     path('list/', views.employee_list, name = 'employee_list')  #get request to retrieve and display all records
 ]
+
+
+
+
+
