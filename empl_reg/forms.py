@@ -15,3 +15,4 @@ class EmployeeForm(forms.ModelForm):
         super(EmployeeForm,self).__init__(*args, **kwargs)
         self.fields['position'].empty_label = "Select"
         
+
