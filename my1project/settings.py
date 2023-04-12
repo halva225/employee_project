@@ -139,4 +139,4 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'zenasaulak@gmail.com'
-EMAIL_HOST_PASSWORD = 'ozhe wqyh zavd yuop'
+EMAIL_HOST_PASSWORD = 'mlhuenleqvjamqvs'
