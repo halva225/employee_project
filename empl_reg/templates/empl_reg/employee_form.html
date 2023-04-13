@@ -22,12 +22,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
-                <button type="submit" class="btn btn-success btn-block btn-lg"><i class="fa-solid fa-database"></i> Submit</button>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-success btn-block btn-lg">
+                    <i class="fa-solid fa-database"></i> Submit</button>
             </div>
-            <div class="col-md-4">
+        </div>
+        <div class="row">
+            <div class="col-md-6">
                 <a href="{% url 'employee_list' %}" class="btn btn-secondary btn-block btn-lg">
                     <i class="fas fa-stream"></i> Back to list
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="{% url 'employee_pos' %}" class="btn btn-secondary btn-block btn-lg">
+                    <i class="fas fa-stream"></i> View all positions
                 </a>
             </div>
         </div>
