@@ -19,8 +19,8 @@ def my_view(request):
         return redirect('employee_insert')
 
 def employee_pos(request):
-    context = {'employee_pos':Position.objects.all()}
-    return render(request, "empl_reg/employee_pos.html", context)
+    context = {'employee_list':Employee.objects.all()}
+    return render(request, "empl_reg/position_insert.html", context)
 
 
 def employee_list(request):
